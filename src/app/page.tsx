@@ -141,7 +141,19 @@ export default function Home() {
                         We will give you our utmost gratitude for allowing us to
                         do nothing for you.
                       </p>
-                      <Button className="w-full">Pledge Now</Button>
+
+                      <form action="https://www.paypal.com/donate">
+                        <input
+                          type="hidden"
+                          name="business"
+                          value="jiraspiom@gmail.com"
+                        />
+                        <input type="hidden" name="currency_code" value="USD" />
+                        <input type="hidden" name="amount" value="1.00" />
+                        <Button type="submit" className="w-full">
+                          Pledge Now
+                        </Button>
+                      </form>
                     </CardContent>
                   </div>
                 </Card>
@@ -157,7 +169,19 @@ export default function Home() {
                       <p className="text-center">
                         Thank you and we will do absolutely nothing for you.
                       </p>
-                      <Button className="w-full">Pledge Now</Button>
+
+                      <form action="https://www.paypal.com/donate">
+                        <input
+                          type="hidden"
+                          name="business"
+                          value="jiraspiom@gmail.com"
+                        />
+                        <input type="hidden" name="currency_code" value="USD" />
+                        <input type="hidden" name="amount" value="8.00" />
+                        <Button type="submit" className="w-full">
+                          Pledge Now
+                        </Button>
+                      </form>
                     </CardContent>
                   </div>
                 </Card>
@@ -174,7 +198,18 @@ export default function Home() {
                         You think you may be getting something but you will get
                         absolutely nothing.
                       </p>
-                      <Button className="w-full">Pledge Now</Button>
+                      <form action="https://www.paypal.com/donate">
+                        <input
+                          type="hidden"
+                          name="business"
+                          value="jiraspiom@gmail.com"
+                        />
+                        <input type="hidden" name="currency_code" value="USD" />
+                        <input type="hidden" name="amount" value="15.00" />
+                        <Button type="submit" className="w-full">
+                          Pledge Now
+                        </Button>
+                      </form>
                     </CardContent>
                   </div>
                 </Card>
@@ -188,7 +223,18 @@ export default function Home() {
                   <div className="flex flex-col flex-1">
                     <CardContent className="space-y-4 flex flex-col flex-1 justify-between">
                       <p className="text-center">Absolutely nothing.</p>
-                      <Button className="w-full">Pledge Now</Button>
+                      <form action="https://www.paypal.com/donate">
+                        <input
+                          type="hidden"
+                          name="business"
+                          value="jiraspiom@gmail.com"
+                        />
+                        <input type="hidden" name="currency_code" value="USD" />
+                        <input type="hidden" name="amount" value="25.00" />
+                        <Button type="submit" className="w-full">
+                          Pledge Now
+                        </Button>
+                      </form>
                     </CardContent>
                   </div>
                 </Card>
